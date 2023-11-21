@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: rgb(24, 24, 27);
+  background: radial-gradient(
+    circle,
+    rgba(24, 24, 27, 1) 0%,
+    rgba(9, 9, 11, 1) 100%
+  );
+}
